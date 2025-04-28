@@ -29,7 +29,7 @@ st.sidebar.header("⚙️ Pengaturan")
 model_choice = st.sidebar.selectbox("📌 Pilih Model", ("Random Forest", "XGBoost"))
 
 # Load Data
-data_url = "https://raw.githubusercontent.com/MuhammadRofif/abc/refs/heads/main/Final_Data.csv"
+data_url = "https://raw.githubusercontent.com/NabilMaruf/Dashboard/refs/heads/main/Final_Data.csv"
 try:
     data = pd.read_csv(data_url)
     st.sidebar.success("✅ Data berhasil dimuat.")
